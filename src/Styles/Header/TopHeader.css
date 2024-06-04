@@ -1,0 +1,89 @@
+.top-header {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    background-color: #e91d3e;  
+    color: white;
+    padding: 5px 5px;
+}
+
+
+.Header_Hotline {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+.Header_Hotline .hotline{
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.Header_Hotline .phoneNumber {
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.Header_Store {
+    display: flex;
+    gap: 10px;
+    margin-left: 80px;
+}
+
+.Header_Store > div {
+    display: flex;
+    height: 18px;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 25px;
+    gap: 5px;
+    background: repeating-linear-gradient(90deg, #ee3737 0, #00f 50%, #ee3737);
+    background-size: 200% auto;
+    background-position: 0 100%;
+    animation: gradientShift  2s linear infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.Header_Store > div span {
+    color: white;
+    font-size: 12px;
+}
+
+.Header_Service {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    margin-left: auto;
+}
+
+.Header_Service > div {
+    display: flex;
+    height: 25px;
+    align-items: center;
+    gap: 5px;
+    border-left: 1px solid #fff;
+    padding: 0px 10px
+}
+
+.Header_Service > div:first-child{
+    border: none;
+}
+
+
+.Header_Service > div span {
+    font-size: 13px;
+    color: white;
+}

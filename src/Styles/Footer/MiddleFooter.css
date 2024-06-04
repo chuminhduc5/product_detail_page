@@ -1,0 +1,73 @@
+.middle-footer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 25px;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.middle-footer div ul {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+.middle-footer div li {
+    font-size: 14px;
+    color: grey;
+    padding: 5px ;
+}
+
+.about img{
+    height: 50px;
+}
+
+.contact{
+    margin-top: 25px;
+}
+
+.contact > span{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+.contact p{
+    color: black;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+
+.contact p span{
+    color: red;
+    font-size: 17px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.contact p .icon{
+    font-size: 18px;
+    color: #0066CC;
+    margin-right: 15px;
+}
+
+.contact p a{
+    color: blue;
+    font-size: 17px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.contact p i {
+    font-size: 18px;
+    color: #0066CC;
+    margin-right: 10px;
+}
+
+.contact .social-media img{
+    margin: 15px 10px 20px 0px;
+}
+.contact .certification img{
+    margin: 0px 20px 0px 0px
+}

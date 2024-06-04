@@ -1,0 +1,21 @@
+.bottom-footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+    /* margin-top: auto;  */
+}
+
+.bottom-footer p {
+    margin: 5px 0;
+}
+
+.bottom-footer .address {
+    font-weight: bold;
+}
+
+.bottom-footer .email,
+.bottom-footer .phone {
+    font-weight: bold;
+}

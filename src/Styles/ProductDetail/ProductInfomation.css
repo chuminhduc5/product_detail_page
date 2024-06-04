@@ -1,0 +1,104 @@
+.product-infomation {
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    text-align: left;
+}
+
+.product-infomation .product-name span {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.product-infomation div p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.product-infomation div p span {
+    font-size: 14px;
+    color: grey;
+    text-align: left;
+}
+
+.product-code {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+}
+
+.product-code p span{
+    margin-left: 10px;
+} 
+
+.specifications{
+    width: 580px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #f4f4f4;
+}
+
+.specifications button {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.specifications .icon-caret{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.product-specifications {
+    padding-left: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: height 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-specifications h3 {
+    font-size: 16px;
+}
+
+.product-specifications span {
+    font-size: 15px;
+    padding: 3px 0px;
+}
+
+.promotional-price .price span {
+    margin-right: 10px;
+}
+
+.promotional-price .price span:first-child {
+    font-size: 24px;
+    color: #1f67d2;
+    font-weight: bold;
+}
+
+.promotional-price .price .price-product {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.promotional-price .price span:last-child {
+    color: grey;
+}
+

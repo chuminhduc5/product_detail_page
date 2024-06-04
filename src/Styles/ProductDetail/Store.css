@@ -1,0 +1,82 @@
+.store-container {
+  border: 2px solid #ff4500;
+  padding: 5px;
+  border-radius: 10px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: repeating-linear-gradient(90deg, #fd0002 0, rgba(255, 138, 4, .836) 25%, red 50%, rgba(255, 138, 4, .836) 75%, #fd0002 );
+  background-size: 200% auto;
+  background-position: 0 100%;
+  animation: gradientShift  2s linear infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+      background-position: 200% 0;
+  }
+  100% {
+      background-position: 0  0;
+  }
+}
+
+.store-quantity {
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #fff;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.store-container .store-title{
+  display: flex;
+  height: 35px;
+ align-items: center;
+}
+
+.store-container .store-title p {
+  color: #fff;
+  padding: 0px 40px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.store-container .store-title  .shop {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.store-container ul {
+  list-style-type: none;
+}
+
+.store-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.store-container li span{
+  font-size: 18px;
+}
+
+.store-container .quantity {
+  font-weight: bold;
+  color: #ff4500;
+}
+
+.store-container button{
+  border: none;
+  background-color: #fff;
+  font-size: 13px;
+  color: blue;
+  align-items: center;
+  margin-left: 40px;
+}

@@ -1,0 +1,104 @@
+.similar-product {
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin: 10px;
+    width: 300px;
+    height: 450px; 
+    position: relative;
+}
+
+.similar-product-image{
+    width: 100%;
+    height: 265px;
+}
+
+.product-persent-sale{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(244, 52, 83);
+    border-radius: 0px 10px 0px 10px;
+    color: #fff;
+    padding: 1px 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.installment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left: 0;
+    background-color: #1f67d2;
+    border-radius: 0px 10px 0px 0px;
+    color: #fff;
+    padding: 5px 15px;
+}
+ 
+.installment span {
+    margin-left: 10px;
+}
+
+.star-fill{
+    margin: 0px 0px 0px 20px;
+    color: #e4dcdc;
+    font-size: 14px;
+}
+
+.star-fill span{
+    margin-left: 5px;
+    color: black;
+}
+
+.similar-product-infomation{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 15px;
+}
+
+.similar-product-infomation span:first-child{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.similar-product-infomation span:last-child{
+    font-size: 14px;
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.similar-product-infomation .product-price{
+    text-decoration: line-through;
+    color: #1f67d2;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.similar-product-infomation .product-price-sale{
+    color: #1f67d2;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.icon-bag{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    background-color: rgb(244, 52, 83);
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+}

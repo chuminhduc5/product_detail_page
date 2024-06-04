@@ -1,0 +1,39 @@
+.top-footer{
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: space-between ;
+    background-color: #f5f9ff;
+    border: 1px solid #dadada;
+    padding: 30px 30px;
+}
+
+.delivery, .lie, .pay, .support-footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.delivery-policy, .lie-policy, .convenient-payment, .support-content{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.top-footer div i{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.top-footer div span:first-child{
+    font-size: 20px;
+    font-weight: 600
+}
+
+.top-footer div span:last-child{
+    font-size: 13px;
+    color: black;
+}
+

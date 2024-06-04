@@ -1,0 +1,156 @@
+.evaluate-component {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.evaluate-component>span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.evaluate-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 20px;
+}
+
+.evaluate-content .evaluate-racting {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.rating span:first-child {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.rating .icon-starFill {
+  color: rgb(217, 214, 214);
+}
+
+.racting .stars span{
+  margin-left: 10px;
+}
+
+.evaluate-component .racting {
+  display: flex;
+  justify-content: center;
+}
+
+.evaluate-component .racting .stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: gray
+}
+
+.evaluate-component .racting .stars i {
+  padding: 10px;
+}
+
+
+.submit-button {
+  width: 250px;
+  margin-top: 10px;
+  padding: 10px 40px;
+  background-color: #1f67d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.point-evaluate {
+  display: flex;
+  flex-direction: column;
+}
+
+.point-evaluate>div {
+  display: flex;
+  align-items: center;
+}
+
+.point-evaluate>div span {
+  font-size: 14px;
+  padding-bottom: 9px;
+}
+
+.point-evaluate>div span .star-fill {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #e4dcdc;
+}
+
+.point-evaluate div>div {
+  width: 331px;
+  height: 5px;
+  background-color: #e3e3e3;
+  border-radius: 12px;
+  margin: 0px 10px;
+}
+
+.comment-box {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  width: 850px;
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-box .title-comment {
+  background-color: #dee0e2;
+  padding: 2px 30px;
+}
+
+.comment-input{
+  padding: 10px 0px 20px 30px;
+  box-sizing: border-box;
+}
+
+.comment-box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.comment-box textarea {
+  width: 800px;
+  height: 150px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  font-size: 14px;
+}
+
+.comment-box textarea:focus{
+  outline: none;
+}
+
+.comment-box button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.comment-box button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,20 @@
+.similar-contents{
+    padding-left: 15px;
+}
+.similar-title{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    margin-bottom: 15px;
+}
+.similar-title p{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0px 40px;
+    color: #1f67d2;
+}
+
+.new-similar-product{
+    display: flex;
+    flex-direction: row;
+}

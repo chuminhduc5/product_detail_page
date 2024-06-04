@@ -1,0 +1,44 @@
+.technical-component {
+    width: 600px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.technical-component h2 {
+    text-align: start;
+    margin: 20px;
+}
+
+.technical-component table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.technical-component th,
+.technical-component td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.technical-component tr:nth-child(2n) {
+    background-color: #99CCFF;
+}
+
+.technical-component .view-more {
+    display: block;
+    width: 94%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.technical-component .view-more:hover {
+    background-color: #0056b3;
+}
